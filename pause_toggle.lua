@@ -4,11 +4,11 @@ local mp = require 'mp'
 local utils = require 'mp.utils'
 local msg = require 'mp.msg'
 
-opts = [[ {
+local opts = {
 
 	pause_toggle = "\\"
 
-}]]
+}
 
 (require 'mp.options').read_options(opts, "pause_toggle")
 -- main
