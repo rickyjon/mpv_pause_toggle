@@ -4,5 +4,6 @@ Binds a key to toggle pause (default keybinding: \\), the most useful use case w
 ## Manual install
 
 cp pause_toggle.sh ~/.config/mpv/scripts
+
 cp pause_toggle.conf ~/.config/mpv/scripts-opts
 
